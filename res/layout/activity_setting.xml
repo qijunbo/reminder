@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <Switch
+        android:id="@+id/notifyInAdvance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:onClick="setSettings"
+        android:padding="10dp"
+        android:text="@string/text_setting_inadvance"
+        android:textSize="14sp" />
+
+    <Switch
+        android:id="@+id/notifyBarEnable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:onClick="setSettings"
+        android:padding="10dp"
+        android:text="@string/text_setting_notifyenable"
+        android:textSize="14sp" />
+
+    <Switch
+        android:id="@+id/dialogEnable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:onClick="setSettings"
+        android:padding="10dp"
+        android:text="@string/text_setting_dialogenable"
+        android:textSize="14sp" />
+
+    <Switch
+        android:id="@+id/autoRemoveExpiredItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="setSettings"
+        android:padding="10dp"
+        android:text="@string/text_setting_autoRemoveExpiredItem"
+        android:textSize="14sp" />
+
+    <Switch
+        android:id="@+id/playSound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="setSettings"
+        android:padding="10dp"
+        android:text="@string/text_setting_playSound"
+        android:textSize="14sp" />
+
+    <Switch
+        android:id="@+id/vibrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="setSettings"
+        android:padding="10dp"
+        android:text="@string/text_setting_vibrate"
+        android:textSize="14sp" />
+
+</LinearLayout>

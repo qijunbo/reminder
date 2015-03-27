@@ -1,0 +1,8 @@
+#nothing
+#Sat Feb 07 10:36:26 GMT+08:00 2015
+autoRemoveExpiredItem=false
+dialogEnable=false
+notifyInAdvance=false
+notifyBarEnable=false
+vibrate=false
+playSound=true

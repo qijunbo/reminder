@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">小秘书</string>
+    <string name="action_settings">设置</string>
+    <string name="action_settings_ways">提醒方式</string>
+    <string name="action_help">帮助和建议</string>
+    <string name="action_import">导入</string>
+    <string name="action_export">导出</string>
+    <string name="tab_memo">备忘</string>
+    <string name="tab_clock">提醒</string>
+    <string name="tab_stopwatch">秒表</string>
+    <string name="item.text.annual">年度事件</string>
+    <string name="item.text.monthly">每月事件</string>
+    <string name="item.text.weekly">每周事件</string>
+    <string name="item.text.daily">每日事件</string>
+    <string name="item.text.once">一次性事件</string>
+    <string name="button.new">新建一个提醒</string>
+    <string name="button.save">保存</string>
+    <string name="button.delete">删除</string>
+    <string name="button.send">发送</string>
+    <string name="button.about">关于&#8230;</string>
+    <string name="button.cancel">取消</string>
+    <string name="button.ok">确定</string>
+    <string name="button.stop">我知道啦</string>
+    <string name="button.again">等下再响</string>
+    <string name="intro_message_remote">创建一个提醒，并发送给你的好友。</string>
+    <string name="intro_message_remotehint">交代朋友的事情，一定要说的越详细越好哦。</string>
+    <string name="intro_message_once">创建一个一次性的事件提醒。</string>
+    <string name="intro_message_daily">创建一个每天一次的提醒。比如提醒自己别忘了吃钙片或者维生素。</string>
+    <string name="intro_message_weekly">创建一个每周发生一次或者多次的提醒。比如周例会，工作日的起床闹钟，周末起床的闹钟。</string>
+    <string name="intro_message_monthly">创建一个月度提醒，比如按揭还贷，信用卡还款。</string>
+    <string name="intro_message_annual">创建一个年度事件提醒，比如爸妈和亲友的生日，结婚纪念日。</string>
+    <string name="intro_message_onboot">提醒设置加载完毕。</string>
+    <string name="error_sd_readonly">没有开通存储卡写权限，无法写入记录。</string>
+    <string name="intro_message_from">给您发来了这个提醒。</string>
+    <string name="intro_message_nothing">.</string>
+    <string name="title_activity_menu">新建提醒</string>
+    <string name="title_activity_main">备忘录</string>
+    <string name="title_activity_alarm_edit">保存</string>
+    <string name="title_activity_alarm_popup">事件提醒</string>
+    <string name="title_activity_alarm_once">保存</string>
+    <string name="title_activity_setting">设置</string>
+    <string name="title_activity_sms">短信列表</string>
+    <string name="title_activity_smsmessage">短信内容</string>
+    <string name="title_dialog_daysofweek">选择&#8230;</string>
+    <string name="title_activity_help">帮助和建议</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="edit_logo_hint">点击可以更换图片</string>
+    <string name="edit_title_periodicity">新建提醒</string>
+    <string name="edit_title_title">标题</string>
+    <string name="text_title">标题:</string>
+    <string name="text_detail">好记性不如烂笔头啊，记不住的可以写在这里。</string>
+    <string name="text_date">日期:</string>
+    <string name="text_dayofweek">每周的这些天:</string>
+    <string name="text_time">时间:</string>
+    <string name="text_expiretime">过期时间:</string>
+    <string name="text_expiretime_hint">永不过期</string>
+    <string name="text_expired">已过期！</string>
+    <string name="text_item_next">下次:</string>
+    <string name="text_setting_inadvance">提前15分钟通知</string>
+    <string name="text_setting_notifyenable">开机加载完毕提示</string>
+    <string name="text_setting_dialogenable">对话框提示</string>
+    <string name="text_setting_autoRemoveExpiredItem">自动删除过期提醒</string>
+    <string name="text_setting_playSound">播放铃声</string>
+    <string name="text_setting_vibrate">振动</string>
+    <string name="text_get_message">从短信中获取内容</string>
+    <string name="text_about_message">谢谢你选择了“小秘书”，您的反馈是我们前进的动力。\n帮助和反馈请联系:</string>
+    <string name="text_about_software">软件策划\n junboqi@foxmail.com</string>
+    <string name="text_about_ui">平面设计\n jingjingzhao@foxmail.com</string>
+    <string name="text_capture">拍照</string>
+    <string name="text_onboot_loadfinished">小秘书闹铃设置完毕，已经自动退出。</string>
+    <string name="day_Monday">一</string>
+    <string name="day_Tuesday">二</string>
+    <string name="day_Wednesday">三</string>
+    <string name="day_Thursday">四</string>
+    <string name="day_Friday">五</string>
+    <string name="day_Saturday">六</string>
+    <string name="day_Sunday">日</string>
+
+    <string-array name="WeekDays">
+        <item>星期六</item>
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+    </string-array>
+    <string-array name="PeriodicalTypes">
+        <item>一次性提醒</item>
+        <item>每天提醒</item>
+        <item>每周提醒</item>
+        <item>每月提醒</item>
+        <item>每年提醒</item>
+        <item>远程提醒</item>
+    </string-array>
+
+    <string name="text_detail_once">有些事一辈子只发生一次，错过了，就再也不会来。</string>
+    <string name="text_detail_daily">三天打渔，两天晒网是不行滴。既然决定要去做，就一次都不要落下。</string>
+    <string name="text_detail_weekly">若有恒，何须三更起半夜眠？最无益，莫过一日曝十日寒。</string>
+    <string name="text_detail_monthly">虽然发工资比大姨妈还要准时，但是更准时的是信用卡的还款时间啊！</string>
+    <string name="text_detail_annual">有些重要的日子，一年就那么一次。错过了，就再等一年吧。</string>
+
+</resources>

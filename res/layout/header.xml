@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="5dp" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/edit_logo_hint"
+        android:padding="5dp"
+        android:src="@drawable/img_birthday" />
+
+    <TextView
+        android:id="@+id/description"
+        style="@style/Widget.SampleMessage"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="5dp"
+        android:text="@string/intro_message_annual"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Reminder</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab_memo">备忘</string>
+    <string name="tab_clock">闹钟</string>
+    <string name="tab_stopwatch">秒表</string>
+    <string name="item.text.annual">Annual</string>
+    <string name="item.text.monthly">Monthly</string>
+    <string name="item.text.weekly">Weekly</string>
+    <string name="item.text.daily">Daily</string>
+    <string name="item.text.hourly">Hourly</string>
+    <string name="item.text.once">Once</string>
+    <string name="button.new">New</string>
+    <string name="button.save">Save</string>
+    <string name="button.delete">Delete</string>
+    <string name="button.about">About&#8230;</string>
+    <string name="button.cancel">Cancel</string>
+    <string name="button.ok">OK</string>
+    <string name="intro_message_once">This is an one shot alarm.</string>
+    <string name="intro_message_daily">This is a daily alarm.</string>
+    <string name="intro_message_weekly">This is a weekly alarm.</string>
+    <string name="intro_message_monthly">This is a monthly alarm.</string>
+    <string name="intro_message_annual">This is an annual alarm.</string>
+    <string name="title_activity_menu">Periodical Type</string>
+    <string name="title_activity_main">Remind U</string>
+    <string name="title_activity_alarm_edit">Save</string>
+    <string name="title_activity_alarm_popup">Event Remind</string>
+    <string name="title_activity_alarm_once">保存</string>
+    <string name="title_dialog_daysofweek">Select Days&#8230;</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="edit_logo_hint">Click to change picture.</string>
+    <string name="edit_title_periodicity">Periodicity</string>
+    <string name="edit_title_title">Title</string>
+    <string name="text_title">Title:</string>
+    <string name="text_detail">Don\'t you want to put somthing here to remind yourself?</string>
+    <string name="text_date">Date:</string>
+    <string name="text_dayofweek">Days of week:</string>
+    <string name="text_time">Time:</string>
+    <string name="text_expiretime">Expire Time:</string>
+    <string name="text_expiretime_hint">Never</string>
+    <string name="text_expired">Expired!</string>
+    <string name="text_item_next">Next:</string>
+    <string name="day_Monday">M</string>
+    <string name="day_Tuesday">T</string>
+    <string name="day_Wednesday">W</string>
+    <string name="day_Thursday">T</string>
+    <string name="day_Friday">F</string>
+    <string name="day_Saturday">S</string>
+    <string name="day_Sunday">S</string>
+
+    <string-array name="WeekDays">
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+    <string-array name="PeriodicalTypes">
+        <item>Once</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Annual</item>
+    </string-array>
+
+</resources>

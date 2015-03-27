@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="home.tony.reminder"
+    android:installLocation="internalOnly"
+    android:versionCode="3"
+    android:versionName="1.06" >
+
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="20" />
+
+    <application
+        android:allowBackup="true"
+        android:hasCode="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:logo="@drawable/ic_launcher"
+        android:theme="@style/AppBaseTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AlarmActivity"
+            android:icon="@drawable/ic_action_save"
+            android:label="@string/title_activity_alarm_edit"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".AlarmPopupActivity"
+            android:label="@string/title_activity_alarm_popup" >
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:icon="@drawable/ic_action_settings"
+            android:label="@string/title_activity_setting" >
+        </activity>
+        <activity
+            android:name=".SMSActivity"
+            android:label="@string/title_activity_sms" >
+        </activity>
+        <activity
+            android:name=".SMSMessageActivity"
+            android:label="@string/title_activity_smsmessage"
+            android:parentActivityName=".SMSActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="home.tony.reminder.SMSActivity" />
+        </activity>
+        <activity android:name=".ViewImageActivity" />
+        <activity
+            android:name=".CommonActivity"
+            android:icon="@drawable/ic_action_help"
+            android:label="@string/title_activity_help" />
+
+        <receiver android:name="home.tony.reminder.onboot.BootNotificationReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="home.tony.reminder.notification.AlarmReceiver" />
+
+        <service
+            android:name="home.tony.reminder.onboot.ConfigureLoadingService"
+            android:exported="false" />
+    </application>
+
+</manifest>
